@@ -1,6 +1,5 @@
 entrypoint.o
-bios.bin
-gba_bios.bin
+*.bin
 
 result
 
