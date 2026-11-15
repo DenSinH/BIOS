@@ -2,7 +2,7 @@ entrypoint.o
 bios.bin
 gba_bios.bin
 
-result/
+result
 
 # Files for testing
 *.gba
