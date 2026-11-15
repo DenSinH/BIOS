@@ -57,6 +57,22 @@
         "type": "github"
       }
     },
+    "mgba-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1794470113,
+        "narHash": "sha256-FJR3tc9J3QFa+zlVTXGcuhoGDJpdli8MrFpplxORNvo=",
+        "owner": "mgba-emu",
+        "repo": "mgba",
+        "rev": "d58ea8a86f30598fbf3958585de3d33028535072",
+        "type": "github"
+      },
+      "original": {
+        "owner": "mgba-emu",
+        "repo": "mgba",
+        "type": "github"
+      }
+    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1794386569,
@@ -77,6 +93,7 @@
       "inputs": {
         "devkitNix": "devkitNix",
         "flake-utils": "flake-utils_2",
+        "mgba-src": "mgba-src",
         "nixpkgs": "nixpkgs"
       }
     },
